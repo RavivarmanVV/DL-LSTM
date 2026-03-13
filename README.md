@@ -30,7 +30,8 @@ Evaluate model accuracy, plot loss curves, and visualize predictions on a sample
 
 ## PROGRAM
 
-```
+```python
+
 
 import pandas as pd
 import torch

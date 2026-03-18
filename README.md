@@ -30,8 +30,7 @@ Evaluate model accuracy, plot loss curves, and visualize predictions on a sample
 
 ## PROGRAM
 
-```python
-
+```
 
 import pandas as pd
 import torch
@@ -220,7 +219,7 @@ try:
     print(classification_report(true_tags, pred_tags, zero_division=0))
 except Exception as e:
     print("sklearn not available or other error while creating classification report:", e)
-print('Name:  Ravivarman VV')
+print('Name: Ravivarman VV')
 print('Register Number: 212224240133')
 history_df = pd.DataFrame({"loss": train_losses, "val_loss": val_losses})
 history_df.plot(title="Loss Over Epochs")
@@ -236,7 +235,7 @@ output = model(sample)
 preds = torch.argmax(output, dim=-1).squeeze().cpu().numpy()
 true = y_test[i].numpy()
 
-print('Name: Ravivarman VV ')
+print('Name:Ravivarman VV ')
 print('Register Number:  212224240133')
 print("{:<15} {:<10} {}\n{}".format("Word", "True", "Pred", "-" * 40))
 for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
@@ -249,7 +248,7 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ```
 
-## Name: Ravivarman VV
+## Name:Ravivarman VV
 
 ## Register Number: 212224240133
 
@@ -258,11 +257,11 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-<img width="827" height="637" alt="image" src="https://github.com/user-attachments/assets/d29f08c5-1437-4384-98b9-2556069d3f71" />
+<img width="803" height="624" alt="image" src="https://github.com/user-attachments/assets/76e3160d-6796-4265-8a6c-156655d9b1b0" />
 
 
 ### Sample Text Prediction
-<img width="387" height="525" alt="image" src="https://github.com/user-attachments/assets/17e26ba0-7c0d-4570-a585-9faf3bad1597" />
+<img width="464" height="502" alt="image" src="https://github.com/user-attachments/assets/7bf1546d-2b1d-46b9-bdd0-ed018ee114f3" />
 
 
 ## RESULT

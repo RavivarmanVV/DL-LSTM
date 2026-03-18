@@ -257,11 +257,11 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 
 ## Loss Vs Epoch Plot
 
-<img width="803" height="624" alt="image" src="https://github.com/user-attachments/assets/76e3160d-6796-4265-8a6c-156655d9b1b0" />
+<img width="753" height="556" alt="image" src="https://github.com/user-attachments/assets/c7cd80b7-07ca-4784-a110-44877ed04ebf" />
 
 
 ### Sample Text Prediction
-<img width="464" height="502" alt="image" src="https://github.com/user-attachments/assets/7bf1546d-2b1d-46b9-bdd0-ed018ee114f3" />
+<img width="427" height="593" alt="image" src="https://github.com/user-attachments/assets/725274a0-7dd1-4993-b3e1-5ac80b2e5b05" />
 
 
 ## RESULT

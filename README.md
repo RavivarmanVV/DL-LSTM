@@ -3,8 +3,13 @@
 ## AIM
 To develop an LSTM-based model for recognizing the named entities in the text.
 
+## THEORY
+An LSTM-based model for recognizing named entities is a type of neural network that uses Long Short-Term Memory (LSTM) layers to identify and classify proper names and entities within a text, such as person names, locations, organizations, dates, etc. It is commonly employed in Named Entity Recognition (NER) tasks because LSTMs are effective at capturing sequential dependencies and context within text. Typically, these models process tokenized input data, learn contextual representations, and output labels for each token indicating whether it belongs to a specific entity type. This approach improves the accuracy of extracting meaningful information from unstructured text data.
+
+
 ## Problem Statement and Dataset
 The goal of this project is to develop a Long Short-Term Memory (LSTM) based model to perform Named Entity Recognition (NER) on text data. The model will identify and classify words in a sentence into predefined categories such as Person, Organization, Location, Date, Time, Money, Percent, Facility, and GPE. Using the NER dataset containing Word, POS, and Tag columns, the model will be trained to recognize entities and predict the correct tags for unseen text.
+
 
 <img width="371" height="651" alt="image" src="https://github.com/user-attachments/assets/e71a2718-c000-4e25-8d0a-eb793fa2b4d4" />
 
